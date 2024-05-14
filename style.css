@@ -1,17 +1,85 @@
 body{
-
-
-  
+  font-family: 'Roboto', sans-serif;
+    background-color: #ff8c00; /* Orange vif */
+    color: #ffffff; /* Blanc */
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-  
+/* Style pour l'en-tête */
+header {
+    background-color: #ff5722; /* Orange clair */
+    padding: 20px;
+    text-align: center;
 }
 
-p{
-  
+h1{font-size: 48px;
+    margin: 0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
-a{
-  
+/* Style pour le contenu principal */
+.main-content {
+    padding: 20px;
+    text-align: justify;
+}
+
+/* Style pour les liens */
+a {
+    color: #ffffff; /* Blanc */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffeb3b; /* Jaune */
+}
+
+/* Style pour les boutons */
+.button {
+    display: inline-block;
+    background-color: #ffeb3b; /* Jaune */
+    color: #333; /* Noir */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ffc107; /* Jaune foncé */
+}
+
+/* Style pour le pied de page */
+footer {
+    background-color: #333; /* Noir */
+    color: #ffffff; /* Blanc */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style pour les éléments de formulaire */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #ff5722; /* Orange clair */
+    color: #ffffff; /* Blanc */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #f44336; /* Rouge */
 }
