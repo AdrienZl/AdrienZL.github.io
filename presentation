@@ -3,20 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qu'est-ce que le GP Explorer ?</title>
-    <link rel="stylesheet" href="style.css">
+    <title>GP Explorer de Squeezie</title>
+    <style>
+        body {
+            background-color: #E6E6FA; /* Couleur lavande */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4B0082; /* Indigo pour un meilleur contraste */
+        }
+        p {
+            line-height: 1.6;
+        }
+        .video {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .video iframe {
+            width: 100%;
+            height: 400px;
+            max-width: 560px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Qu'est-ce que le GP Explorer ?</h1>
-    </header>
-    <section>
-        <h2>Présentation du GP Explorer</h2>
-        <p>Le GP Explorer est une course automobile organisée par le célèbre YouTuber français Squeezie. Cet événement réunit divers créateurs de contenu et personnalités de l'internet pour une compétition amicale et spectaculaire sur un circuit de Formule 1. L'objectif est de divertir les fans tout en soutenant des causes caritatives.</p>
-        <img src="images/gp_explorer.jpg" alt="Image du GP Explorer">
-    </section>
-    <footer>
-        <p>&copy; 2024 GP Explorer. Tous droits réservés.</p>
-    </footer>
+    <div class="container">
+        <h1>GP Explorer de Squeezie</h1>
+        <p>Le GP Explorer est un événement exceptionnel organisé par Squeezie, l'un des créateurs de contenu les plus influents de France. Cet événement réunit des créateurs de contenu, des personnalités de l'internet et des passionnés de sport automobile pour une course de karting palpitante et pleine de rebondissements.</p>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/lien-de-la-video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>L'événement est non seulement un grand moment de compétition, mais aussi une occasion de rassembler la communauté autour d'une passion commune. Avec des participants venant de divers horizons, le GP Explorer promet des moments inoubliables et une dose d'adrénaline pour tous les spectateurs.</p>
+        <p>Pour plus d'informations, vous pouvez suivre Squeezie sur ses réseaux sociaux et rester à l'affût des dernières nouvelles concernant le GP Explorer.</p>
+    </div>
 </body>
 </html>
