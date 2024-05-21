@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #ff1801; 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0032a0;
+    padding: 15px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #ffcf00; 
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+section.ferrari {
+    background-color: #ff1801;
+}
+
+section.mercedes {
+    background-color: #00d2be;
+}
+
+section.redbull {
+    background-color: #1e41ff;
+}
+
+section.mclaren {
+    background-color: #ff8700;
+}
+
+section.alpine {
+    background-color: #0090ff;
+}
+
+
+section h2 {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+
+button {
+    background-color: #e10600;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 10px 2px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #e10600;
+}
+
+footer {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.ferrari {
+    color: #ff1801;
+}
+
+.mercedes {
+    color: #00d2be;
+}
+
+.redbull {
+    color: #1e41ff;
+}
+
+.mclaren {
+    color: #ff8700;
+}
+
+.alpine {
+    color: #0090ff;
+}
